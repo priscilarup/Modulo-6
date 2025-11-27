@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gráfico de Ventas</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="app">
+    <h1>📊 Ventas Mensuales</h1>
+    <form id="formVentas">
+      <input type="text" id="mes" placeholder="Mes (Enero, Febrero...)" required />
+      <input type="number" id="monto" placeholder="Monto ($)" required />
+      <button type="submit">Agregar</button>
+    </form>
+    <canvas id="graficoVentas"></canvas>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
